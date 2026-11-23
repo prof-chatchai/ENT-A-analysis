@@ -1,0 +1,8 @@
+{
+  "title": "ENT-A pre-specified analysis script: GA episodes, missed combination opportunities, consultation timeliness and counterfactual planner (synthetic test data only)",
+  "upload_type": "software",
+  "description": "Analysis code written before data extraction for a retrospective cleft-care cohort (Pranangklao Hospital). Includes a synthetic test-data generator and 8 edge-case tests. No patient data are included or used; the output shown is from synthetic test data and is not study evidence. The combinability matrix and timing assumptions in the script are drafts awaiting multidisciplinary-team sign-off.",
+  "creators": [{"name": "Chandharakool, Somprattana"}, {"name": "Kitchawee, Supotchamarn"}, {"name": "Tritham, Chattabhorn"}, {"name": "Tritham, Chatchai"}],
+  "license": "MIT",
+  "keywords": ["cleft lip and palate", "general anaesthesia", "combined procedures", "simulation", "pre-specified analysis"]
+}

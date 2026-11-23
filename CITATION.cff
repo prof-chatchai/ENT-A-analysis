@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "ENT-A pre-specified analysis script: GA episodes, missed combination opportunities, consultation timeliness and counterfactual planner (synthetic test data only)"
+version: 1.0.0
+date-released: 2026-11-24
+license: MIT
+authors:
+  - {family-names: Chandharakool, given-names: Somprattana}
+  - {family-names: Kitchawee, given-names: Supotchamarn}
+  - {family-names: Tritham, given-names: Chattabhorn}
+  - {family-names: Tritham, given-names: Chatchai}
+abstract: "Analysis code written before data extraction for a retrospective cleft-care cohort. Includes a synthetic test-data generator and edge-case tests. No patient data are included or used."

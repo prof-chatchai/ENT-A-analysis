@@ -1,0 +1,69 @@
+(statsmodels convergence warnings with local file paths were removed from this saved output)
+GA episodes with missing duration (ineligible for merging): 0
+Children 150; GA episodes to age 6: 340; mean/child 2.27 (median 2, IQR 1-3)
+Negative binomial (NB2, alpha estimated) rate ratios, offset log person-years:
+                  RR  lo  hi
+const           0.38 NaN NaN
+syndromic       1.10 NaN NaN
+cleft_type_CLP  1.57 NaN NaN
+cleft_type_CP   1.31 NaN NaN
+alpha           1.00 NaN NaN
+
+Missed combination opportunity (proportion of GA episodes):
+                 missed_60  missed_90  missed_120
+group                                            
+non-syndromic        0.136      0.182       0.235
+syndromic/Robin      0.053      0.079       0.118
+            missed_60  missed_90  missed_120
+cleft_type                                  
+CL              0.037      0.037       0.056
+CLP             0.127      0.186       0.245
+CP              0.146      0.171       0.220
+Children with >=1 missed opportunity (proportion of children with >=1 GA episode):
+                 missed_60  missed_90  missed_120
+group                                            
+non-syndromic        0.159      0.195       0.239
+syndromic/Robin      0.067      0.100       0.133
+
+Planner simulation (rules, window -> planned, avoided, theatre min at 45 [range 30-60], visits):
+  base                       60d    320    20 (5.9%)     900 [600-1200]    20
+  base                       90d    314    26 (7.6%)    1170 [780-1560]    26
+  base                      120d    307    33 (9.7%)    1485 [990-1980]    33
+  ASA<=3                     60d    316    24 (7.1%)    1080 [720-1440]    24
+  ASA<=3                     90d    310    30 (8.8%)    1350 [900-1800]    30
+  ASA<=3                    120d    303    37 (10.9%)    1665 [1110-2220]    37
+  no airway exclusion        60d    318    22 (6.5%)     990 [660-1320]    22
+  no airway exclusion        90d    312    28 (8.2%)    1260 [840-1680]    28
+  no airway exclusion       120d    305    35 (10.3%)    1575 [1050-2100]    35
+  sensitivity: median-by-code duration imputation, 90d -> planned 314, avoided 26 (7.6%)
+Stratified estimates (exploratory effect modification), base rules, primary window:
+  non-syndromic        avoided 8.7% of 264
+  syndromic/Robin      avoided 3.9% of 76
+  CL                   avoided 1.9% of 54
+  CLP                  avoided 8.8% of 204
+  CP                   avoided 8.5% of 82
+  child-level bootstrap 95% CI (90d, B=200): relative reduction 5.7% to 10.2%; missed proportion 11.7% to 21.2%
+
+Consultations: {'n_consults': 202, 'median_resp_days': np.float64(15.0), 'iqr_resp': (7.5, 32.0), 'no_response_90d': np.float64(0.161), 'n_eligible_90d': 192, 'n_censored_before_90d': 7, 'not_closed_90d': np.float64(0.542), 'km_closure': {30: np.float64(0.17412132656142287), 90: np.float64(0.45889661933116654), 365: np.float64(0.5845099041292885)}}
+                                n  median_resp  q1_resp  q3_resp not_closed_90d
+from_discipline to_discipline                                                  
+DENTAL          ENT            10          9.0     5.75    31.25            0.5
+                ORTHO          14         16.5    10.00    34.75       0.785714
+                PLASTIC        10          8.0     5.00    12.00       0.555556
+                SPEECH         11         17.0    10.25    32.25       0.272727
+ENT             DENTAL         10         10.0     7.25    21.25            0.3
+                ORTHO           7          6.0     4.00    13.50       0.166667
+                PLASTIC         3          9.0     4.50    13.50            1.0
+                SPEECH         11          5.0     2.50    23.00       0.888889
+ORTHO           DENTAL         10         11.0     5.00    44.00       0.555556
+                ENT            13         20.0    15.00    34.00       0.583333
+                PLASTIC        12         17.5    10.50    40.25            0.5
+                SPEECH          9         14.0     7.50    33.00       0.555556
+PLASTIC         DENTAL         16         17.0    12.00    28.00         0.6875
+                ENT            17         34.5    17.00    40.75         0.5625
+                ORTHO           8         13.0     1.50    26.50            0.5
+                SPEECH          5         18.0    14.00    29.00            0.2
+SPEECH          DENTAL          8         15.0     4.00    23.00           0.75
+                ENT            15         26.0    15.00    33.00            0.4
+                ORTHO           5         10.5     8.00    18.00       0.333333
+                PLASTIC         8         11.5     8.75    17.00          0.625
